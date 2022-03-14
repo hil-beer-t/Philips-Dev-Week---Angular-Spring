@@ -16,6 +16,12 @@ public class Regiao {
     public Regiao() {
     }
 
+    public Regiao(Long id, String regiao, Integer total_exames) {
+        this.id = id;
+        this.regiao = regiao;
+        this.total_exames = total_exames;
+    }
+
     public Regiao(String regiao, Integer total_exames) {
         this.regiao = regiao;
         this.total_exames = total_exames;
